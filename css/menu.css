@@ -1,0 +1,101 @@
+/*------------------------ Menu -------------------------------------*/
+.fa-bars {
+	position: absolute;
+	left: 50px;
+	top: 23px;
+}
+
+#main-menu {			/* Cho items menu cùng 1 hàng */
+	display: flex;
+	list-style: none;
+	padding-left: 300px;
+	padding-right: 300px;
+	font-weight: 600;
+	font-size: 20px;
+	border-bottom: 1px solid var(--black);
+	height: 60px;
+	max-width: 100%;
+	z-index: 10;
+	margin: 0;
+}
+
+#main-menu li.border-right {
+	text-align: center;
+	width: 264px;
+	position: relative;
+	border-right: 1px solid var(--black);
+}
+
+#main-menu li:last-child {
+	border-right: none;
+}
+
+#main-menu .main-menu-a {				/* Điều chỉnh các items trên menu */
+	color: var(--black);
+	display: block;
+	padding: 18px 20px 0px 20px;
+	text-decoration: none;
+	line-height: 30px;
+	height: 100%;
+}
+
+#main-menu li a:hover {			/* Hiện Underline khi hover vào a */
+	transform: scale(1.1);
+	transition: all 0.3s ease-in-out;
+}
+
+#main-menu .sub-menu {				/* Ẩn menu con */
+	display: none;
+	font-size: 17px;
+}
+
+#main-menu li:first-child:hover .sub-menu  {		/* Hiện menu con khi hover vào li */
+	display: block;
+/*	box-shadow: 0 0 32px 8px rgb(48 56 70 / 30%);*/
+	transition: 0.5s ease;
+	background-color: var(--graylight);
+}
+
+.fa-chevron-right {
+	position: absolute;
+	right: 20px;
+}
+
+#main-menu .sub-menu {
+	background-color: var(--white);
+	width: 264px;
+	top: 61px;
+	position: absolute;
+	border-radius: 0px 0px 15px 15px;
+}
+
+#main-menu ul.sub-menu {			/* Điều chỉnh các items trên submenu */
+	position: absolute;
+	padding: 0px;
+	list-style: none;
+	width: 264px;
+	left: 0;
+	border: none;
+	z-index: 10;
+}
+
+#main-menu .sub-menu li {
+	margin: 10px 10px 10px 10px;
+}
+
+#main-menu ul.sub-menu li a {
+	text-align: left;
+	transform: none;
+	display: block;
+	text-decoration: none;
+	color: var(--black);
+	height: 20px;
+	padding: 10px 10px;
+}
+
+#main-menu ul.sub-menu li a:hover {
+	background-color: var(--grayblack);
+	color: var(--white);
+	border-radius: 15px;
+}
+/*------------------------ Menu -------------------------------------*/

@@ -1,0 +1,163 @@
+/*------------------------ Form -------------------------------------*/
+.table1{
+	padding: 36px 600px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.td2{
+	box-shadow: 0 0 15px 3px rgb(48 56 70 / 30%);
+  border-radius: 10px;
+}
+.td2 .container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: #FFFFFF;
+	width: 650px;
+	border-radius: 15px;
+}
+
+.form-info{
+	text-align: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.form-text-tong input {
+	padding-left: 15px;
+}
+
+.formname{
+	font-size: 19px;
+	padding-left: 10px;	
+	color: black;
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.form-tesxt1{
+	width: 93%;
+	height: 40px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #C0C0C0;
+  border-radius: 15px;
+  font-size: 17px;
+}
+.form-tesxt1-1{
+	width: 90%;
+	height: 40px;
+	margin-bottom: 10px;
+	border: 1px solid #C0C0C0;
+  border-radius: 15px;
+  font-size: 17px;
+}
+
+.form-tesxt1-11{
+	width: 95%;
+	height: 40px;
+	margin-bottom: 10px;
+	border: 1px solid #C0C0C0;
+  border-radius: 15px;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.formname1{
+	font-size: 19px;
+	padding-left: 10px;	
+	color: black;
+	margin-top: 1px;
+}
+.radio2{
+	margin-left: 130px;
+}
+.form-tesxt2{
+	color: black;
+	font-size: 17px;
+	height: 30px;
+	padding-left: 10px;
+	margin-top: 5px;
+}
+.form-text-tong1{
+	border: 1px solid #C0C0C0;
+  border-radius: 15px;
+  background-color: #EEEEEE;
+  width: 586px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.form-tesxt3{
+	width: 260px;
+	margin-left: 22px;
+	height:40px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	border: 1px solid #C0C0C0;
+	font-size: 17px;
+}
+.form-tesxt4{
+	width: 260px;
+	height: 40px;
+	margin-bottom: 10px;
+	border: 1px solid #C0C0C0;
+  border-radius: 15px;
+  font-size: 17px;
+}
+.form-tesxt0{
+	width: 90%;
+	height: 40px;
+	margin-bottom: 17px;
+	border: 2px solid #C0C0C0;
+  border-radius: 15px;
+  font-size: 17px;
+}
+
+.form-text-tong2 {
+	margin-top: 10px;
+}
+
+.tontien{
+	display: flex;
+}
+.tongtien1{
+	font-size: 19px;
+	padding-left: 10px;	
+	color: black;
+}
+.tongtien2{
+	font-size: 20px;
+	padding-left: 10px;	
+	margin-left: 250px;
+	padding-right: 10px;
+	color: red;
+	float: right;
+}
+.button{
+	height: 50px;
+	width: 95%;
+	margin-left: 13px;
+	background-color: var(--black);
+	color: white;
+	font-size: 20px;
+	border: none;
+	margin-bottom: 20px;
+	border-radius: 15px;
+	margin-top: 10px;
+}
+
+/*.button a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}*/
+
+.button:hover {
+	box-shadow: 0px 0px 3px 5px var(--graylight);
+	transition: .3s;
+}
+
+/*--------------------------------Form-------------------------------------*/

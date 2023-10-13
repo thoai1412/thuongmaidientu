@@ -1,0 +1,53 @@
+/*------------------------ Thong bao dat hang thanh cong -------------------------------------*/
+.box-container {
+	width: calc(1920px - 600px);
+	margin-right: 300px;
+	margin-left: 300px;
+	border-radius: 25px;
+	border: 2px dashed green;
+	margin-top: 50px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.box-container img {
+	margin-top: 20px;
+}
+
+.box-container h1 {
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+
+.box-container .box-button-container {
+	width: calc(1920px - 600px - 200px);
+	display: flex;
+	justify-content: space-between;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+}
+
+.box-container .box-button-container button {
+	width: 500px;
+	height: 70px;
+	border-radius: 15px;
+	background-color: white;
+	text-align: center;
+	line-height: 70px;
+}
+
+.box-container .box-button-container button:hover {
+	box-shadow: inset 500px 0 0 0 var(--graylight);
+	transition: .8s;
+}
+
+.box-container .box-button-container button a {
+	text-decoration: none;
+	color: black;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+/*------------------------ Thong bao dat hang thanh cong -------------------------------------*/

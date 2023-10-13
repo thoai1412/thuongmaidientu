@@ -1,0 +1,237 @@
+:root {
+  --graylight: #e5e5e5;
+  --white: #fff;
+  --black: #000;
+  --grayblack: #333;
+  --graywhite: rgba(152,165,185,.1);
+  --grayblue:  #505f77;
+  --yellowstar:  #FFDF00;
+}
+
+body {
+	width: 1920px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background-color: var(--white);
+}
+
+/*------------------------ Title -------------------------------------*/
+#title-center {		
+	text-align: center;
+}
+
+#title-center h3 {		/* tạo boder cho title */
+	text-align: center;
+	font-size: 30px;
+	display: inline-block;
+	color: var(--black);
+	margin-top: 50px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid var(--black);
+}
+/*------------------------ Title -------------------------------------*/
+
+/*------------------------ Brand -------------------------------------*/
+#brand-container {
+	margin: 0 300px;
+	max-width: calc(100% - 600px);
+	padding-left: 60px;
+}
+
+#brand-container ul {
+	display: flex;	
+	flex-wrap: wrap;
+}
+
+#brand-container li {
+	list-style-type: none;
+	border-radius: 20px;
+	border: 1px solid var(--grayblack);
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#brand-container li img {
+	width: 140px;
+	height: auto;
+}
+
+#brand-container li:hover {
+	box-shadow: 0px 0px 3px 3px var(--graylight);
+	transition: 0.2s;
+}
+/*------------------------ Brand -------------------------------------*/
+
+/*------------------------ Product -------------------------------------*/
+.product-container {
+	width: calc(100% - 600px);
+	margin: 0px 300px 0px 300px;
+	border-radius: 15px;
+}
+
+#product-list {
+	margin: 0px auto;
+	height: 444px;
+	overflow: hidden;
+}
+
+.product {
+	display: flex;
+	flex-wrap: wrap; 
+	list-style: none;
+}
+
+ul.product li {
+	flex-basis: 19%;	/* chia độ rộng item */
+	box-sizing: border-box; /* tính padding từ ngoài vào */
+	background-color: var(--white);
+	border-radius: 15px;
+	margin-top: 14px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+ul.product li:hover {
+	transition: 0.3s;
+	/*padding-bottom: 5px;*/
+	box-shadow: 0px 0px 3px 5px var(--graylight);
+	border-radius: 15px;
+}
+
+ul.product li img {
+	max-width: 250px;
+	height: auto;
+}
+
+ul.product .product-info {
+	padding: 5px 0px;
+	text-align: center;
+}
+
+ul.product .product-info a{
+	display: block;
+	text-decoration: none; /*Bỏ gạch chân*/
+}
+
+ul.product .product-info a.product-name {
+	color: var(--black);
+	padding: 3px 0px;
+	font-weight: 600;
+}
+
+ul.product .product-info .product-price {
+	color: #f94c43;
+	font-weight: 600;
+	padding: 5px 0px;
+}
+
+ul.product .product-info .product-price .span-offer {
+	padding: 5px 5px;
+}
+
+ul.product .product-info .product-price .span-price {
+	font-size: 13px;
+	text-decoration: line-through;
+	color: #bbbec4;
+	padding: auto 5px;
+}
+
+.seeall-container{
+	text-align: center;
+	display: block;
+	background-color: var(--white);
+	width: 370px;
+	height: 40px;
+	border:  1px solid var(--black);
+	border-radius: 15px;
+	margin: 15px auto;
+	padding-top: 15px;
+}
+
+.seeall-container:hover {
+	cursor: pointer;
+}
+
+#seeall{
+	text-decoration: none;
+	color: var(--black);
+	font-weight: 600;
+	font-size: 20px;
+	position: absolute;
+	left: 45%;
+	line-height: 30px;
+}
+
+.seeall-container:hover {
+	box-shadow: inset 400px 0 0 0 var(--graylight);
+	transition: 0.3s;
+}
+/*------------------------ Product -------------------------------------*/
+
+/*------------------------ Email -------------------------------------*/
+#email-box {
+	text-align: center;
+	max-height: 50px;
+	margin-top: 20px;
+}
+
+#email-box label {
+	position: relative;
+}
+
+#email-box input[type="text"] {	
+	width: 600px;
+	height: 50px;
+	padding: 0px 16px;
+	background-color: var(--white);
+	color: var(--black);
+	line-height: 55px;
+	font-size: 20px;
+	outline: none;
+	border: 1px solid var(--grayblack);
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+#email-box button {
+	position: absolute;
+	background-color: var(--white);
+	font-weight: 300;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	color: var(--black);
+	top: -18px;
+	right: 1px;
+	padding: 15px 10px;
+	border-radius: 20px;
+	height: 50px;
+}
+
+#email-box ::placeholder {
+	color: var(--grayblack);
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+#email-box button:hover{
+	box-shadow: inset 400px 0 0 0 var(--graylight);
+	transition: 0.3s;
+}
+/*------------------------ Email -------------------------------------*/
+
+/*------------------------ Tim kiem -------------------------------------*/
+.find-title {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.find-container {
+	padding-left: 300px;
+	padding-right: 300px;
+}
+/*------------------------ Tim kiem -------------------------------------*/
+
+
+

@@ -1,0 +1,65 @@
+/*------------------------ Don hang -------------------------------------*/
+.myorder-container {
+	width: calc(1920px - 600px);
+	margin-right: 300px;
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+.myorder-container ul li {
+	display: flex;
+	justify-content: space-between;
+	border-radius: 15px;
+	box-shadow: 0 0 15px 3px rgb(48 56 70 / 30%);
+}
+
+.myorder-container ul li div {
+	padding: 10px;
+	border-right: 1px solid var(--graylight);
+}
+
+.myorder-container ul li div h3 {
+	margin-bottom: 5px;
+}
+
+.myorder-container ul li div button {
+	margin: 0;
+}
+
+/*------------------------ Don hang -------------------------------------*/
+
+/*------------------------ Myorder -------------------------------------*/
+
+.formtimdonhang input{
+		width: 350px;
+		height: 50px;
+		border-radius: 30px;
+		font-size: 17px;
+		padding: 5px;
+	}
+
+	.formtimdonhang button{
+		margin-left: 5px;
+		margin-top: 40%;
+		border: none;
+		background-color: white;
+		font-size: 20px;
+		height: 30px;
+		cursor: pointer;
+	}
+
+	.formtimdonhang{
+		display: flex;
+		margin-top: 3%;
+		margin-left: 40%;
+	}
+
+	.btsdt{
+		height: 62px;
+		padding-top: 1px;
+		margin-left: -59px;
+		border-left: 2px solid black;
+		border-radius:2px;
+	}
+
+/*------------------------ Myorder -------------------------------------*/

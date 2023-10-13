@@ -1,0 +1,259 @@
+/*------------------------ Login -------------------------------------*/
+.page {
+	margin-top: 50px;
+  margin-left: 10%;
+  border-radius: 15px;
+  background: var(--graywhite);
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 100px);
+  position: absolute;
+  place-content: center;
+  width: calc(100% - 400px);
+}
+
+.page .container {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background: var(--graylight);
+  box-shadow: 0 0 15px 3px rgb(48 56 70 / 30%);
+}
+
+.page .container .left {
+  background-color: transparent;
+  height: 100%;
+  position: relative;
+  width: 800px;
+  padding-left: 100px;
+}
+
+.login {
+  font-size: 130px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  padding-top: 200px;
+  padding-right: 200px;
+}
+.eula {
+  color: var(--black);
+  font-size: 30px;
+}
+.right {
+  background: white; 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 3px 5px var(--graylight);
+  position: relative;
+  width: 500px; 
+  height: 750px;
+  box-shadow: 0 0 15px 3px rgb(48 56 70 / 30%);
+  margin-top: 20px;
+  margin-right: 100px;
+} 
+
+.login-logo{
+	margin-top: 10px;
+
+}
+
+.login-logo img {
+	padding-left: 150px;
+}
+
+.dndk{
+  align-items: center;
+  height: 7%;
+  font-size: 14px;
+  margin-left: 9%;
+  margin-right: 11%;
+  display: flex;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #eee;
+}
+
+.dn{
+  justify-content: center;
+  height: auto;
+  width: 50%;
+  text-align: center;
+  border-right: 2px solid #EEEEEE;
+}
+
+.dk{
+  width: 50%;
+  text-align: center;
+}
+
+.dk a, .dn a {
+	text-decoration: none;
+  color: var(--black); 
+  font-weight: 600; 
+  font-size: 17px;
+}
+
+.form {
+  align-items: center;
+  width: 80%;
+  margin-left: 40px;
+
+}
+.form .text-label {
+  color:  var(--black);
+  display: block;
+  font-size: 14px;
+  height: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.form input{
+  background: transparent;
+  border: 2px solid #eee;
+  font-size: 17px;
+  height: 30px;
+  line-height: 15px;
+  outline: none !important;
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px 0px 5px 5px;
+}
+
+.forgot-password {
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	text-align: right;
+	width: 410px;
+}
+
+.forgot-password a{
+	text-decoration: none;
+  color: var(--black); 
+  font-weight: 600; 
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+#button {
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	background-color: var(--black);
+	color: var(--white);
+	border-radius: 15px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+#button:hover {
+	box-shadow: 0px 6px 7px 1px rgb(48 56 70 / 30%);
+	transition: .3s;
+}
+
+.login-with {
+	margin-top: 20px;
+	font-size: 17px;
+}
+
+.dn-gg-fb{
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.dn-gg-fb button[type=text]{
+  border: 2px solid #eee;
+  height: 40px;
+  color:black;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 5%;
+  padding: 5px;
+}
+
+.fb{
+  margin-right: 10px;
+  width: 50%;
+}
+
+.gg {
+	width: 50%;
+}
+
+.check-btn{
+  width: 100%;
+	height: 50px;
+	font-size: 20px;
+	background-color: var(--black);
+	color: var(--white);
+	border-radius: 15px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.check-btn:hover {
+	box-shadow: 0px 6px 7px 1px rgb(48 56 70 / 30%);
+	transition: .3s;
+}
+
+.fa-facebook {
+	color: var(--black);
+	font-size: 15px;
+	padding: 0;
+}
+
+.fa-google {
+	color: var(--black);
+	font-size: 15px;
+	padding: 0;
+}
+
+.maxn{
+  width: 100%;
+  display: flex;
+}
+
+.capcha {
+	height: 50px;
+	padding-top: 20px;
+}
+
+.input-area{
+width: 45%;
+}
+
+.captcha-area {
+	margin-top: 20px;
+  display: flex ;
+  margin-left: 30px;
+  width: 100%;
+  position: relative;
+}
+
+.captcha-area span {
+	line-height: 30px;
+	font-size: 25px;
+}
+
+.reload-btn {
+	margin-left: 20px;
+	width: 50px;
+	height: 30px;
+	font-size: 20px;
+	background-color: var(--black);
+	color: white;
+	border: none;
+	border-radius: 15px;
+	padding-top: 2px;
+}
+/*------------------------ Login -------------------------------------*/

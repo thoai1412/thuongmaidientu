@@ -1,0 +1,202 @@
+/*---------------------------------------------Support---------------------------------*/
+.hotro-tong{
+	margin-top: 20px;
+	display: flex;
+	width: 1320px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.hotro1{
+	width: 600px;
+}
+
+.hotro1 form{
+	width: 100%;
+}
+
+.hotro1-1{
+	border-left: 5px solid #363636;
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+  line-height: 24px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+.hotro1-2{
+	border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 21px;
+  padding: 14px 14px 10px;
+  display: inline-block;
+  width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 3px rgb(48 56 70 / 30%);
+}
+.hotro1-2-1{
+	background-position: 100% 38px;
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+  padding: 0 0 29px;
+  height: 20px;
+
+}
+
+.hotro-tieude{
+	display: flex;
+	margin-bottom: 10px;
+}
+.hotro-tieude-1{
+	float: left;
+    text-align: right;
+    width: 105px;
+    padding-right: 5px;
+}
+.hotro1-2 label{
+	border-color: #ddd;
+  font-size: 17px;
+  height: 28px;
+  line-height: 28px;
+  margin: 0;
+  padding: 0 5px;
+  width: 280px;
+}
+.hotro1-2 select {
+	height: 30px;
+	font-size: 17px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.hotro1-2 input {
+	border: 1px solid black;
+	outline: none;
+	border-radius: 15px;
+}
+
+.hotro-tieude-2-1 {	
+  font-size: 13px;
+  height: 28px;
+  line-height: 28px;
+  margin: 0;
+	padding: 0 5px;
+  width: 280px;
+  
+}
+.hotro-tieude-2{
+	float: right;
+    width: 290px;
+}
+.hotro-noidung{
+	display: flex;
+	margin-bottom: 15px;
+}
+.hotro-noidung-1{
+	float: left;
+    text-align: right;
+    width: 105px;
+    padding-right: 5px;
+}
+.hotro-noidung-2{
+	float: right;
+}
+.hotro1-noidung-2-1{
+	height: 100px;
+    width: 285px;
+    line-height: 18px;
+
+}
+.hotro-hoten{
+	display: flex;
+	margin-bottom: 10px;
+}
+.hotro-hoten-1{
+	float: left;
+    text-align: right;
+    width: 105px;
+    padding-right: 5px;
+}
+.hotro-hoten-2{
+	float: right;
+    width: 290px;
+}
+.hotro-hoten-2-1{
+	border-color: #ddd;
+    font-size: 13px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0 5px;
+    width: 280px;
+}
+.hotro-email{
+	display: flex;
+	margin-bottom: 10px;
+}
+.hotro-email-1{
+	float: left;
+    text-align: right;
+    width: 105px;
+    padding-right: 5px;
+}
+.hotro-email-2{
+	float: right;
+    width: 290px;
+}
+.hotro-email-2-1{
+	border-color: #ddd;
+    font-size: 13px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0 5px;
+    width: 280px;
+}
+.hotro-dt{
+	display: flex;
+	margin-bottom: 10px;
+}
+.hotro-dt-1{
+	float: left;
+    text-align: right;
+    width: 105px;
+    padding-right: 5px;
+}
+.hotro-dt-2{
+	float: right;
+    width: 290px;
+}
+.hotro-dt-2-1{
+	border-color: #ddd;
+    font-size: 13px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0 5px;
+    width: 280px;
+}
+.lienhe{
+	border: 1px solid #2d83d8;
+    border-radius: 0;
+    color: #1C1C1C;
+    font-size: 14px;
+    height: 46px;
+    line-height: 40px;
+    text-align: center;
+    text-shadow: 1px -1px rgb(0 0 0 / 30%);
+    width: 435px;
+}
+.hotro2{
+	width: 720px;
+	margin-left: 180px;
+}
+.tel{
+	color: #f60;
+}
+.content p {
+	margin-bottom: 5px;
+	font-size: 17px;
+}
+/*---------------------------------------------Support---------------------------------*/

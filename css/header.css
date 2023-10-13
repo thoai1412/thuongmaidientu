@@ -1,0 +1,164 @@
+/*------------------------ Header -------------------------------------*/
+#header {
+	display: flex;
+	background-color: var(--white);
+	max-width: 1920px;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid var(--black);
+	height: 100px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+#logo img {					
+	height: auto;
+	max-width: 150px;
+	margin-top: 20px;
+	padding-left: 25px;
+}
+
+.search-box-container {
+	display: block;
+	background-color: #fff;
+	border-radius: 50px;
+	height: 32px;
+  padding-top: 35px;
+}
+
+.search-box {				
+	display: flex;
+	height: 31px;
+	line-height: 35px;
+	border: 2px solid var(--black);
+	border-radius: 50px;
+	position: absolute;
+	left: 35%;
+}
+
+.search-box input {
+	border: none;
+	outline: none;  
+	padding: 0px 10px;
+	padding-left: 15px;
+	font-size: 15px;
+	color: black;
+	border-radius: 50px;
+	width: 500px;
+	letter-spacing: 1px;
+}
+
+.search-box ::placeholder {
+	font-size: 15px;
+}	
+
+.search-box button {
+	border: none;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.fa-magnifying-glass {
+	background-color: white;
+	border: none;
+	font-size: 20px;
+}
+
+.right-header {
+	display: flex;
+	position: relative;
+	left: 65%;
+}
+
+
+#login {
+	margin-right: 90px;
+}
+
+#login button {
+	padding: 5px 20px;
+	border: 2px solid var(--black);
+	background-color: var(--white);
+	border-radius: 30px;
+	margin-top: 35px;
+}
+
+#login button:hover {
+	cursor: pointer;
+}
+
+#login a {
+	text-decoration: none;
+	color: var(--black);
+	font-size: 20px;
+	font-weight: 600;
+	width: 100%;
+}
+
+#logined {
+	display: flex;
+	font-size: 25px;
+	padding-top: 35px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+#logined span i {
+	margin-right: 10px;
+}
+
+#logined a {
+	text-decoration: none;
+	color: var(--black);
+}
+
+#login button:hover {	
+	background-color: var(--graylight);
+	transition: 0.5s;
+}
+
+.cart-container img{
+	margin-top: 25px;
+	width: 50px;
+	height: auto;
+	position: relative;
+	margin-left: 33px;
+}
+
+.cart-container img:hover {	
+	background-color: var(--graylight);
+	transition: 0.25s;
+	border-radius: 50%;
+}
+
+.menu-user {
+	position: relative;
+}
+
+.menu-user ul {
+	list-style-type: none;
+	position: absolute;
+	background-color: white;
+	width: 250px;
+	border-radius: 0 0 15px 15px;
+	top: 30px;
+	display: none;
+	box-shadow: 0 0 32px 8px rgb(48 56 70 / 30%);
+	z-index: 10;
+}
+
+.menu-user ul li {
+	padding: 5px 5px 5px 10px;
+}
+
+.menu-user ul li:hover {
+	background-color: var(--graylight);
+	transition: .3s;
+}
+
+.menu-user {
+	position: relative ;
+}
+
+.menu-user:hover .sub-menu-user {
+	display: block;
+}
+/*------------------------ Header -------------------------------------*/
