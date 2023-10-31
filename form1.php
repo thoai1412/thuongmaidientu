@@ -98,7 +98,7 @@
 	<table class="table1"border=0>
 		<td class="td2">
 		<div class="container">	
-			<form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded">
+			<form class="form-info" method="POST">
 				<div class="form-text-tong">	
 					<h3 class="formname">Thông tin khách hàng</h3>
 					<div class="width-input">
@@ -172,7 +172,7 @@
 							<input type="hidden" name="tensp" value="<?php echo $tensp ?>">
 						</div>
 					</div>
-					<button class="button" id="dathang">Thanh Toán Trực tiếp</button>
+					<button class="button" id="dathang"> ĐẶT HÀNG</button>
 					<style type="text/css">
 						button[disabled]{
 						  border: 1px solid #999999;
@@ -181,23 +181,19 @@
 						}
 					</style>
 				</div>
-				 <div style="margin-top: 1em;">
-               <button type="submit" class="btn btn-primary btn-block" name="momoqrcode">Thanh toán QR code</button>
-             </div>
-         <div style="margin-top: 1em;">
-              <button type="submit" class="btn btn-primary btn-block"name="momoatm">Thanh toán qua thể ATM</button>
-         </div>
-         <?php 
-         	
-         ?>
 			</form>		
-			 <form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded"  action="xuly1.php">
+			 <form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded"
+                          action="xulythanhtoanqr.php">
             <div style="margin-top: 1em;">
                <button type="submit" class="btn btn-primary btn-block">Thanh toán QR code</button>
              </div>
        </form>	
          <form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded"
-                          action="xulythanhtoanatm.php">   
+                          action="xulythanhtoanatm.php">
+             <div style="margin-top: 1em;">
+                 <button type="submit" class="btn btn-primary btn-block">Thanh toán qua thể ATM</button>
+             </div>
+                      
         </form>
 		</div>
 		</td>
@@ -284,8 +280,7 @@
 	    if(isset($_POST["sdt"])) { $sdt = trim($_POST['sdt']); }
 	    if(isset($_POST["email"])) { $email = $_POST['email']; }
 	    $sql = "INSERT INTO tbl_donhang( sanpham_name, khachhang_name, khachhang_phone, donhang_gia, donhang_diachi, yeucau, donhang_tinhtrang) VALUES ('$tensp','$ten','$sdt','$tien','$bien','$yeucau', 0)";
-
-	   if ($conn->query($sql) === TRUE) {
+	    if ($conn->query($sql) === TRUE) {
 	    	$idsp= explode("/",$_SESSION['idsp']);
 		    $ssssss=count($idsp);
 		    //echo$ssssss;
@@ -322,26 +317,15 @@
 	        echo "Error: " . $sql . "<br>" . $conn->error;
 	    }
 	   	unset($_SESSION['tensp']);	
-	 		//unset($_SESSION['tongtien']);
-	   if(isset($_POST['momoqrcode']))
-	   {
-	   	  ?>
-	   
+	 	unset($_SESSION['tongtien']);
+	    ?>
 	    <script type="text/javascript"> 
-	    	document.location = "xulythanhtoanqr.php";
+	    	document.location = "dathangthanhcong.php";
 		</script>
-	    <?php 
-	  }
-	     elseif(isset($_POST['momoatm']))
-	     {
-	   	  ?>
-	    <script type="text/javascript"> 
-	    	document.location = "xulythanhtoanatm.php";
-		</script>
-	    <?php 
-	  }
+	    <?php    
 	}
 	$conn->close();
+
 
 	}
 	else{
